@@ -87,3 +87,24 @@ body {
     viewport) */
 }
 
+@media (min-width: 800px) {
+    .hero {
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 90vh;
+    }
+    
+    .herotext {
+        font-size: 1rem;
+    }
+    
+    .heroName {
+        font-size: 3.5rem;
+    }
+    
+    .button {
+        font-size: 1.1rem;
+    }
+}
+
